@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 
 /* cabecalho-imagem, título */
 #cabecalho {
-    background-image: url(_imagens/monte_fuji.jpg);
+    background-image: url(../_imagens/monte_fuji.jpg);
     background-repeat: no-repeat;
     /* preencher com a imagem toda */
     background-size: cover;
@@ -49,7 +50,7 @@ nav {
 }
 
 .itens_menu {
-    display: inline;
+    display: inline-block;
 }
 
 li a {
@@ -67,7 +68,26 @@ li a:hover {
 }
 
 /* conteúdo da página */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 #conteudo {
-    width: 80%;
+    position: relative;
+    top: 50px;
+    background-color: rgba(110, 106, 106, 0.479);
+    width: 70%;
     margin: 0 auto;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+#titulo_conteudo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.paragrafo_conteudo {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    margin-bottom: 10px;
 }

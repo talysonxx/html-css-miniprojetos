@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div_imagem {
+    overflow: hidden;
+    text-align: center;
+}
+#img_sobre_mim {
+    width: 250px;
+}
+
+#titulo_sobre_mim {
+    text-align: center;
+}
