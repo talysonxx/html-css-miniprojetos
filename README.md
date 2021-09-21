@@ -1,5 +1,5 @@
-# html-css
-#### Projetos simples de html
+# HTML e CSS
+#### Projetos simples usando HTML
 
 ###### Meus **contatos**
 
